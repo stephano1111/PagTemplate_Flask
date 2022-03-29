@@ -10,3 +10,6 @@ def home():
 @app.route("/hello")
 def hello():
     return ""
+
+if __name__ == '__main__':
+    app.run(debug=True)
